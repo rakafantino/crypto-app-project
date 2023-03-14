@@ -230,7 +230,7 @@ const state = reactive({
 
 const fetchData = async () => {
   const firstAPI = "https://api.pintu.co.id/v2/wallet/supportedCurrencies";
-  const secondAPI = "/api";
+  const secondAPI = "https://api.pintu.co.id/v2/trade/price-changes";
   axios
     .all([axios.get(firstAPI), axios.get(secondAPI)])
     .then(
