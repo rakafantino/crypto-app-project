@@ -239,6 +239,11 @@ const fetchData = async () => {
         state.items = apiRes1.data.payload.map((item1) => {
           const pairSelected = item1.currencySymbol;
           const item2 = apiRes2.data.payload.find((item) => item?.pair.toUpperCase().includes(pairSelected));
+          const formatter = new Intl.NumberFormat("en-US", {
+            minimumFractionDigits: 0,
+          });
+          const formattedLatestPrice = formatter.format(item2.latestPrice);
+          item2.latestPrice = formattedLatestPrice;
           return {
             name: item1.name,
             symbol: item1.currencySymbol,

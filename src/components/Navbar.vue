@@ -6,10 +6,10 @@
       <div class="relative">
         <div class="max-w-7xl mx-auto py-8 px-6">
           <div class="flex justify-between">
-            <a href="#"> <img src="../assets/img/pintu.png" alt="Pintu Logo" /> </a>
+            <RouterLink to="/"> <img src="../assets/img/pintu.png" alt="Pintu Logo" /> </RouterLink>
             <div class="flex">
               <div class="px-10 relative">
-                <a href="">Features</a>
+                <RouterLink to="/features">Features</RouterLink>
               </div>
               <div class="px-10 relative">
                 <a href="">PTU</a>
