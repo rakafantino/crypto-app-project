@@ -26,7 +26,7 @@
       <div class="lg:max-w-5xl md:max-w-3xl sm:max-w-2xl py-12 px-6 w-full mx-auto">
         <div class="grid md:grid-cols-4 md:grid-rows-2 md:gap-6 grid-cols-1 gap-12 w-full">
           <div>
-            <div>Pintu</div>
+            <div><img src="../assets/img/pintu-footer.png" alt="Pintu Logo" class="w-[92px] h-5" /></div>
             <div class="pt-8">
               <div class="flex gap-4">
                 <a href="#">ig</a>

@@ -22,7 +22,7 @@
         <a href="#" class="mr-2">
           <div class="p-2 rounded-lg flex items-center bg-blue-200">
             <div class="mr-2 w-6 h-6">
-              <div class="w-full h-full">svg</div>
+              <div class="w-full h-full">✨</div>
             </div>
             <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Terbaru</div>
           </div>
@@ -30,7 +30,7 @@
         <a href="#" class="mr-2">
           <div class="p-2 rounded-lg flex items-center bg-blue-200">
             <div class="mr-2 w-6 h-6">
-              <div class="w-full h-full">svg</div>
+              <div class="w-full h-full">🏛️</div>
             </div>
             <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">DeFi</div>
           </div>
@@ -38,9 +38,65 @@
         <a href="#" class="mr-2">
           <div class="p-2 rounded-lg flex items-center bg-blue-200">
             <div class="mr-2 w-6 h-6">
-              <div class="w-full h-full">svg</div>
+              <div class="w-full h-full">🎮</div>
             </div>
             <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">NFTs/Gaming</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">📈</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">CEX</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">↔️</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">DEX</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">🔀</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Layer-1</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">🗂️</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Infrastructure</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">💰</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Lending</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">🔀</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Layer-2</div>
+          </div>
+        </a>
+        <a href="#" class="mr-2">
+          <div class="p-2 rounded-lg flex items-center bg-blue-200">
+            <div class="mr-2 w-6 h-6">
+              <div class="w-full h-full">⚖️</div>
+            </div>
+            <div class="text-xs text-blue-500 font-semibold whitespace-nowrap">Stable Ecosystem</div>
           </div>
         </a>
       </div>
@@ -51,7 +107,7 @@
         <thead>
           <tr class="text-left text-slate-400">
             <th class="py-5 pr-5 pl-[75px]"><p>CRYPTO</p></th>
-            <th class="p-5"><p>HARGA</p></th>
+            <th class="p-5"><p>PRICE</p></th>
             <th class="p-5 text-center"><p>24 HOURS</p></th>
             <th class="p-5 text-center"><p>1 WEEK</p></th>
             <th class="p-5 text-center"><p>1 MO</p></th>
@@ -248,6 +304,7 @@ const fetchData = async () => {
             name: item1.name,
             symbol: item1.currencySymbol,
             logo: item1.logo,
+            color: item1.color,
             latestPrice: item2,
           };
         });
